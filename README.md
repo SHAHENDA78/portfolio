@@ -4,7 +4,7 @@ A modern portfolio built with Next.js, TypeScript, and Tailwind CSS, featuring a
 
 ## Live Website
 
-https://portfolio-drw47l3gh-shahenda78s-projects.vercel.app
+ https://shahenda-portfolio.vercel.app
 
 ## Overview
 
