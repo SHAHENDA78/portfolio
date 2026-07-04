@@ -1,63 +1,105 @@
-# Shahenda Shaheen — Portfolio
+# Shahenda Shaheen Portfolio
 
-Front-End & Mobile Developer portfolio, built as a real "Now Showing" cinema
-title card — a nod to the CineVerse projects. Next.js 14 (App Router),
-TypeScript, Tailwind CSS, Framer Motion, Lucide icons.
+A modern portfolio built with Next.js, TypeScript, and Tailwind CSS, featuring a cinematic-inspired design that showcases my front-end and cross-platform mobile development projects.
 
-## Run locally
+## Live Website
+
+https://portfolio-drw47l3gh-shahenda78s-projects.vercel.app
+
+## Overview
+
+This portfolio represents my work as a Front-End and Cross-Platform Mobile Developer. It highlights selected projects, technical skills, professional experience, and education through a responsive, performance-focused user experience.
+
+## Features
+
+- Responsive design for desktop, tablet, and mobile
+- Cinematic-inspired UI
+- Smooth scrolling and section navigation
+- Modern project showcase
+- Performance optimized with Next.js
+- SEO metadata, Open Graph, robots.txt, and sitemap
+- Optimized images using `next/image`
+- Optimized fonts using `next/font`
+
+## Built With
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+
+## Featured Projects
+
+### CineVerse
+
+A movie discovery web application built with Next.js and the TMDB API featuring search, favorites, and dynamic routing.
+
+### CineVerse Mobile
+
+A cross-platform mobile application built with React Native for browsing, searching, and saving favorite movies.
+
+### LuxeShop
+
+A modern e-commerce application built with React, TypeScript, Tailwind CSS, and Fake Store API.
+
+### Pares E-Commerce
+
+A responsive multi-page e-commerce website built using HTML, CSS, and JavaScript.
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SHAHENDA78/portfolio.git
+```
+
+Navigate to the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
 ```
 
-Open http://localhost:3000
+Open your browser:
 
-## Before you deploy — 4 things to check
-
-1. **Resume**: `public/Shahenda-Shaheen-CV.pdf` is already included.
-2. **Screenshots**: drop real screenshots in `public/projects/` — see
-   `public/projects/README.txt` for exact filenames. Until a file exists,
-   that card shows a themed poster placeholder instead of a broken image.
-3. **Domain for SEO**: once you have your real Vercel URL, replace
-   `SITE_URL` in these 3 files (search for `TODO: replace with your real
-   deployed domain`): `app/layout.tsx`, `app/robots.ts`, `app/sitemap.ts`.
-4. **LuxeShop repo**: already pointed at
-   `github.com/SHAHENDA78/LuxeShop-React`.
-
-## Production checklist already in place
-
-- **Sticky, blurred nav** with active-section highlighting (IntersectionObserver)
-- **Loading splash** ("Rolling the film…") on first paint, under 1s
-- **SEO**: full metadata, Open Graph, Twitter card, `robots.ts`, `sitemap.ts`
-- **Images** served through `next/image` (auto lazy-loading, correct sizing) —
-  good for Lighthouse Performance
-- **Fonts** self-hosted via `next/font` — no external font request, good for
-  Lighthouse Performance
-- **Dark theme** throughout, one visual identity, no light/dark flash
-- **Reduced motion** respected (`prefers-reduced-motion`) — good for
-  Lighthouse Accessibility
-- **Responsive** from 360px mobile up to wide desktop
-
-## Deploy
-
-Push to GitHub, then import the repo on https://vercel.com — zero config
-needed, Vercel detects Next.js automatically.
-
-```bash
-git init
-git add .
-git commit -m "feat: initial portfolio"
-git branch -M main
-git remote add origin https://github.com/SHAHENDA78/portfolio.git
-git push -u origin main
+```
+http://localhost:3000
 ```
 
-## Structure
+## Project Structure
 
-- `app/` — root layout, global styles, the single page that assembles sections
-- `components/` — Nav, Hero, About, Skills, Projects, Experience, Education,
-  Contact, Footer, and the signature `FilmStripDivider`
-- `lib/data.ts` — all real content (profile, skills, projects, experience,
-  education) in one place — edit this file to add a new project or update
-  anything, no need to touch component code
+```
+app/
+components/
+lib/
+public/
+```
+
+## Contact
+
+LinkedIn  
+https://www.linkedin.com/in/shahenda-shaheen-6a907423b
+
+GitHub  
+https://github.com/SHAHENDA78
+
+Email  
+shahendashaheen1@gmail.com
+
+## License
+
+This project is available for portfolio and educational purposes.
