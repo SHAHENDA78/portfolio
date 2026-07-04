@@ -21,7 +21,7 @@ const mono = JetBrains_Mono({
   variable: "--font-mono",
 });
 
-const SITE_URL = "https://shahenda-shaheen.vercel.app"; // TODO: replace with your real deployed domain
+const SITE_URL = "https://shahenda-portfolio.vercel.app"; // TODO: replace with your real deployed domain
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

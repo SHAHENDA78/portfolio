@@ -6,7 +6,7 @@ export const profile = {
   email: "shahendashaheen1@gmail.com",
   linkedin: "https://www.linkedin.com/in/shahenda-shaheen-6a907423b/",
   github: "https://github.com/SHAHENDA78",
-  cvFile: "/Shahenda-Shaheen-CV.pdf",
+  cvFile: "/Shahenda_Shaheen_CV.pdf",
   tagline: "I build interfaces the way a good film is cut — every frame responsive, every transition intentional.",
   summary:
     "Front-End Developer and Cross-Platform Mobile Developer with 1.5+ years of hands-on experience building responsive web and mobile applications using React.js, Next.js, React Native, and Tailwind CSS. Completed an intensive ITI program delivering real-world projects with exposure to REST APIs. Passionate about building scalable, user-friendly digital products across web and mobile platforms.",
@@ -53,7 +53,7 @@ export const skills = [
 export type Project = {
   slug: string;
   title: string;
-  reel: string; // reel number label, e.g. "Reel 01"
+  reel: string; 
   description: string;
   stack: string[];
   github: string;
@@ -70,7 +70,7 @@ export const projects: Project[] = [
       "A responsive movie discovery web app built on Next.js and the TMDB API, with search, favorites and dynamic routing behind a modern UI.",
     stack: ["Next.js", "React", "TMDB API", "Tailwind CSS"],
     github: "https://github.com/SHAHENDA78/CineVerse-NextJS",
-    live: "https://final-project-next-seven.vercel.app",
+    live: "https://cineverse-next.vercel.app",
     cover: "/projects/cineverse.jpg",
   },
   {
@@ -91,7 +91,7 @@ export const projects: Project[] = [
       "A modern, responsive e-commerce web app that fetches products dynamically from the Fake Store API, with categories, product details and a smooth shopping flow across devices.",
     stack: ["React.js", "TypeScript", "Vite", "Tailwind CSS", "React Router", "Axios"],
     github: "https://github.com/SHAHENDA78/LuxeShop-React",
-    live: "https://final-project-react-pi.vercel.app/",
+    live: "https://luxeshop-react.vercel.app",
     cover: "/projects/luxeshop.jpg",
   },
   {
@@ -102,7 +102,7 @@ export const projects: Project[] = [
       "A fully responsive multi-page e-commerce storefront built from scratch with Flexbox, Grid and vanilla JavaScript.",
     stack: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/SHAHENDA78/Pares-ECommerce",
-    live: "https://shahenda78.github.io/Pares-ECommerce",
+    live: "https://pares-e-commerce.vercel.app",
     cover: "/projects/pares.jpg",
   },
 ];
